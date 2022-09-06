@@ -11,11 +11,11 @@ export default function AboutECFF({Aboutdata}) {
         { path: "/icons/Vector (3).svg"},
     ];
     return (
-        <div className="flex flex-col w-full mb-40 px-5 lg:px-96">
-            <div className="flex flex-col md:flex-row justify-between">
-                <div className="flex flex-col">
+        <div className="flex flex-col w-full mb-40 px-5 md:px-96">
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+                <div className="flex flex-col w-130">
                     <h1 className="text-ecffBrown font-bold text-4xl md:text-5xl my-4">We are ECFF</h1>
-                    <p className="text-textblack text-left md:text-lg my-2 w-130">
+                    <p className="text-textblack text-left md:text-lg my-2 w-full">
                         Environment and Coffee Forest Forum (ECFF) is a local civil society organization registered 
                         and licensed in Ethiopia (Registration Number 0378) and focuses on developing strategies for 
                         sustainable use and conservation of the environment in general and the Coffee forests in 

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function MissionAndVision() {
     return (
-        <div className="w-full h-full hero-background bg-cover bg-center flex flex-col justify-between items-center px-5 md:flex-row lg:px-96 mb-24 pb-10 ">
+        <div className="w-full h-full hero-background bg-cover bg-center flex flex-col justify-between items-center px-5 md:flex-row lg:px-52 mb-24 pb-10 ">
             <div className="w-102 h-96 bg-transparent text-white flex flex-col mt-24 border-4 p-5 backdrop-opacity-1 backdrop-invert bg-white/20">
                 <h1 className="font-bold text-4xl md:text-5xl my-4 text-center">Mission</h1>
                 <p className="text-left text-lg md:text-xl my-2 w-130 text-center">
