@@ -15,21 +15,20 @@ function Partners() {
         Partners
       </h1>
       <div
-        className="flex flex-col md:flex-row space-x-0 h-128 md:space-x-6 space-y-4 md:space-y-0 md:h-64 justify-between items-center bg-white 
-                    text-center font-montserrat py-6"
+        className="grid grid-cols-2 gap-2 lg:grid-cols-4 p-10"
       >
         {PartnersLinks.map((partner, index) => {
           return (
             <div
               key={index}
-              className="w-1/4 mx-auto h-full border-gray-200 hover:border-gray-500 border-2 justify-center items-center flex"
+              className="w-full mx-auto h-full border-gray-200 hover:border-gray-500 border-2 justify-center items-center flex"
             >
               <Link href={partner.url}>
                 <Image
                   src={partner.imgsrc}
                   alt={partner.name}
-                  width={120}
-                  height={120}
+                  width={200}
+                  height={200}
                 />
               </Link>
             </div>
