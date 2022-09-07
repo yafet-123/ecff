@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav className="w-full fixed bg-footerBackgroundColor bg-opacity-50 left-0 top-0 ease-in duration-100 z-10">
       <div className="flex justify-between px-28 md:items-center md:flex">
-        <div className="flex items-center justify-between py-3 md:py-5 md:block">
+        <div className="flex items-center justify-between py-3 md:py-5 md:block space-x-5">
           <Link href="/">
             <a>
               <Image
@@ -35,7 +35,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div>
+        <div className="hidden md:inline">
           <ul className="hidden items-center justify-center space-y-8 md:flex md:space-x-6 md:flex md:space-y-0">
             {NavLinks.map((link, index) => {
               return (
