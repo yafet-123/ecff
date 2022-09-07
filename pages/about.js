@@ -10,7 +10,7 @@ import Story from '../components/AboutPage/Story'
 
 export default function About({ Aboutdata }) {
     return (
-        <div className="">
+        <div className="overflow-hidden">
             <MainHeader title="ECFF About" />
             <Navbar />
             <Hero />
