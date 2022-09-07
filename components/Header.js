@@ -11,7 +11,7 @@ function MainHeader({ title }) {
           content="Environment and Coffee Forest Forum"
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
+import MainHeader from "../components/Header";
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Hero from '../components/AboutPage/Hero'
@@ -11,6 +11,7 @@ import Story from '../components/AboutPage/Story'
 export default function About({ Aboutdata }) {
     return (
         <div className="w-full h-full">
+            <MainHeader title="ECFF About" />
             <Navbar />
             <Hero />
             <AboutECFF Aboutdata={Aboutdata} />

@@ -24,6 +24,7 @@ function NewsAndBlogs({ newsAndBlogs }) {
                 width={500}
                 height={500}
                 objectFit="cover"
+                alt=""
               />
               <p className="my-5 text-textblack text-left text-lg text-center w-full h-full">{news.description}</p>
               <p>Written by {news.author} </p>

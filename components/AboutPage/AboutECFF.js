@@ -41,7 +41,7 @@ export default function AboutECFF({Aboutdata}) {
             <div className="grid grid-cols-2 gap-6 lg:grid-cols-4 mt-52 px-5 md:px-0">
                 { Aboutdata.map((item,index)=>(
                     <div key={index} className="flex">
-                        <Image src={SVGIMAGE[index].path} width={30} height={30} className=""/>
+                        <Image src={SVGIMAGE[index].path} width={30} height={30} alt="" className=""/>
                         <div className="ml-6 flex flex-col">
                             <h1 className="text-2xl font-bold">{item.count}</h1>
                             <p className="text-base">{item.title}</p>

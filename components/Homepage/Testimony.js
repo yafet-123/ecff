@@ -36,6 +36,7 @@ function Testimony() {
             width={100}
             height={100}
             objectFit="cover"
+            alt=""
           />
         </div>
         <Link href="/">

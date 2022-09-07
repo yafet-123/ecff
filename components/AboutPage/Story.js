@@ -39,6 +39,7 @@ export default function Story() {
                                     width="1050px" 
                                     height="1000px" 
                                     className=""
+                                    alt=""
                                 />
                                 <h1 className="mt-5 text-textblack text-sm text-left md:text-lg">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -62,6 +63,7 @@ export default function Story() {
                                     width="1050px" 
                                     height="1000px" 
                                     className=""
+                                    alt=""
                                 />
                                 <h1 className="mt-5 text-textblack text-sm text-left md:text-lg">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -85,6 +87,7 @@ export default function Story() {
                                     width="1050px" 
                                     height="1000px" 
                                     className=""
+                                    alt=""
                                 />
                                 <h1 className="mt-5 text-textblack text-sm text-left md:text-lg">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -108,6 +111,7 @@ export default function Story() {
                                     width="1050px" 
                                     height="1000px" 
                                     className=""
+                                    alt=""
                                 />
                                 <h1 className="mt-5 text-textblack text-sm text-left md:text-lg">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
