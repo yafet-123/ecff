@@ -60,7 +60,7 @@ export default function Navbar() {
           <ul className={active ? 'z-10 w-screen h-3/4 flex-col text-gray-700 text-xl flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden' : 'hidden'}>
             <AiOutlineClose 
               onClick={showMenu}
-              className="h-10 w-10 text-white block hamburger md:hidden focus:outline-none"
+              className="h-10 w-10 text-white text-3xl block hamburger md:hidden focus:outline-none"
             />
             {NavLinks.map((link, index) => {
               return (
