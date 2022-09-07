@@ -20,7 +20,7 @@ export default function Navbar() {
   }
   return (
     <nav className="w-full fixed bg-footerBackgroundColor bg-opacity-50 left-0 top-0 ease-in duration-100 z-10">
-      <div className="flex justify-between px-28 md:items-center md:flex">
+      <div className="flex justify-between px-5 md:px-28 md:items-center md:flex">
         <div className="flex items-center justify-between py-3 md:py-5 md:block space-x-5">
           <Link href="/">
             <a>
@@ -52,10 +52,10 @@ export default function Navbar() {
           </ul>
         </div>
 
-        <div className="flex items-center justify-between">
+        
           <GiHamburgerMenu 
             onClick={showMenu}
-            className="h-10 w-10 text-white block md:hidden focus:outline-none"
+            className="h-10 w-10 text-white block md:hidden focus:outline-none mt-5"
           />
           <ul className={active ? 'z-10 w-screen h-3/4 flex-col text-gray-700 text-xl flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden' : 'hidden'}>
             <AiOutlineClose 
@@ -75,7 +75,7 @@ export default function Navbar() {
               );
             })}
           </ul>
-        </div>
+       
       </div>
     </nav>
   );
