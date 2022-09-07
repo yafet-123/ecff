@@ -65,7 +65,7 @@ export default function Navbar() {
             return (
               <li
                 key={index}
-                className="text-white text-xl font-bold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline "
+                className="text-black text-xl font-bold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline "
               >
                 <Link href={link.path}>
                   <a>{link.title}</a>

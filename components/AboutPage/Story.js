@@ -24,8 +24,8 @@ export default function Story() {
             </div>
 
             <div className="m-24">
-                <div className="flex flex-col md:grid">
-                    <div className="odd:justify-self-end">
+                <div className="flex flex-col md:grid ">
+                    <div className="odd:justify-self-end mb-10 md:mb-0">
                         <div className="flex items-center w-96 h-96">
                             <div className="hidden md:inline absolute left-1/2  w-0.5 h-96 bg-gray-600"></div>
                             <div className="hidden md:inline absolute left-1/2 -ml-4 w-10 h-10 rounded-full border mr-24 border-gray-200 bg-red-700 p-5">
@@ -33,7 +33,7 @@ export default function Story() {
                             </div>
                             <div className="hidden md:inline absolute left-1/2 ml-6 w-102 h-0.5 bg-gray-600"></div>
                             <div className="hidden md:inline absolute md:left-[30%] lg:left-[40%] py-5 px-10 bg-slate-200 rounded-full">2001</div>
-                            <div className="">
+                            <div className="flex flex-col h-full">
                                 <Image 
                                     src="/images/crcoffee.jpg" 
                                     width="1050px" 
@@ -48,7 +48,7 @@ export default function Story() {
 
                     </div>
                     
-                    <div className="odd:justify-self-end">
+                    <div className="odd:justify-self-end mb-10 md:mb-0">
                         <div className="flex items-center w-96 h-96">
                             <div className="hidden md:inline absolute left-1/2  w-0.5 h-96 bg-gray-600"></div>
                             <div className="hidden md:inline absolute left-1/2 -ml-4 w-10 h-10 rounded-full border mr-24 border-gray-200 bg-red-700 p-5">
@@ -56,7 +56,7 @@ export default function Story() {
                             </div>
                             <div className="hidden md:inline absolute right-1/2 mr-4 w-102 h-0.5 bg-gray-600"></div>
                             <div className="hidden md:inline absolute md:right-[30%] lg:right-[40%] py-5 px-10 bg-slate-200 rounded-full">2005</div>
-                            <div className="">
+                            <div className="flex flex-col h-full">
                                 <Image 
                                     src="/images/istockphoto-1197093424-612x612.jpg" 
                                     width="1050px" 
@@ -71,7 +71,7 @@ export default function Story() {
 
                     </div>
 
-                    <div className="odd:justify-self-end">
+                    <div className="odd:justify-self-end mb-10 md:mb-0">
                         <div className="flex items-center w-96 h-96">
                             <div className="hidden md:inline absolute left-1/2  w-0.5 h-96 bg-gray-600"></div>
                             <div className="hidden md:inline absolute left-1/2 -ml-4 w-10 h-10 rounded-full border mr-24 border-gray-200 bg-red-700 p-5">
@@ -79,7 +79,7 @@ export default function Story() {
                             </div>
                             <div className="hidden md:inline absolute left-1/2 ml-6 w-102 h-0.5 bg-gray-600"></div>
                             <div className="hidden md:inline absolute md:left-[30%] lg:left-[40%] py-5 px-10 bg-slate-200 rounded-full">2012</div>
-                            <div className="">
+                            <div className="flex flex-col h-full">
                                 <Image 
                                     src="/images/istockphoto-843899022-612x612.jpg" 
                                     width="1050px" 
@@ -94,7 +94,7 @@ export default function Story() {
 
                     </div>
 
-                    <div className="odd:justify-self-end">
+                    <div className="odd:justify-self-end mb-10 md:mb-0">
                         <div className="flex items-center justify-center w-96 h-96">
                             <div className="hidden md:inline absolute left-1/2  w-0.5 h-96 bg-gray-600"></div>
                             <div className="hidden md:inline absolute left-1/2 -ml-4 w-10 h-10 rounded-full border mr-24 border-gray-200 bg-red-700 p-5">
@@ -102,7 +102,7 @@ export default function Story() {
                             </div>
                             <div className="hidden md:inline absolute right-1/2 mr-4 w-102 h-0.5 bg-gray-600"></div>
                             <div className="hidden md:inline absolute md:right-[30%] lg:right-[40%] py-5 px-10 bg-slate-200 rounded-full">2014</div>
-                            <div className="">
+                            <div className="flex flex-col h-full">
                                 <Image 
                                     src="/images/istockphoto-938716300-170667a.jpg" 
                                     width="1050px" 
