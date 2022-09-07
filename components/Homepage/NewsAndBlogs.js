@@ -3,7 +3,6 @@ import React from "react";
 import Link from "next/link";
 
 function NewsAndBlogs({ newsAndBlogs }) {
-  console.log(newsAndBlogs)
   return (
     <div className="text-center h-full mb-32 md:mb-24">
       <h2 className="text-black font-bold text-md md:text-md my-1">

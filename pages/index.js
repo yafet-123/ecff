@@ -30,8 +30,7 @@ export async function getServerSideProps() {
   const res = await fetch("https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ce04abf35fd24923ad803b12003dfda3");
   const result = await res.json();
   const filteredresult = result.articles
-  const updatedNews = filteredresult.splice(1,1)
-  filteredresult.splice(17,1)
+  filteredresult.splice(8)
   // we do this because one data is not have image
 
   return {
