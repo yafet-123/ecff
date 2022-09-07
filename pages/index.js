@@ -10,7 +10,7 @@ import Story from '../components/AboutPage/Story'
 
 export default function Home({ Aboutdata }) {
     return (
-        <div className="">
+        <div className="w-full h-full">
             <Navbar />
             <Hero />
             <AboutECFF Aboutdata={Aboutdata} />
