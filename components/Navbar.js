@@ -52,28 +52,30 @@ export default function Navbar() {
           </ul>
         </div>
 
-        <GiHamburgerMenu 
-          onClick={showMenu}
-          className="h-10 w-10 text-white block hamburger md:hidden focus:outline-none"
-        />
-        <ul className={active ? 'z-10 w-screen h-3/4 flex-col text-gray-700 text-xl flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden' : 'hidden'}>
-          <AiOutlineClose 
+        <div className="flex items-center justify-between">
+          <GiHamburgerMenu 
             onClick={showMenu}
-            className="h-10 w-10 text-white block hamburger md:hidden focus:outline-none"
+            className="h-10 w-10 text-white block md:hidden focus:outline-none"
           />
-          {NavLinks.map((link, index) => {
-            return (
-              <li
-                key={index}
-                className="text-black text-xl font-bold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline "
-              >
-                <Link href={link.path}>
-                  <a>{link.title}</a>
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+          <ul className={active ? 'z-10 w-screen h-3/4 flex-col text-gray-700 text-xl flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden' : 'hidden'}>
+            <AiOutlineClose 
+              onClick={showMenu}
+              className="h-10 w-10 text-white block hamburger md:hidden focus:outline-none"
+            />
+            {NavLinks.map((link, index) => {
+              return (
+                <li
+                  key={index}
+                  className="text-black text-xl font-bold hover:text-ecffSecondary hover:underline focus:text-ecffSecondary focus:underline "
+                >
+                  <Link href={link.path}>
+                    <a>{link.title}</a>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </nav>
   );
