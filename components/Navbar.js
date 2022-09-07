@@ -56,7 +56,7 @@ export default function Navbar() {
           onClick={showMenu}
           className="h-10 w-10 text-white block hamburger md:hidden focus:outline-none"
         />
-        <ul className={active ? 'z-10 w-screen h-1/2 flex-col text-gray-700 text-xl flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden' : 'hidden'}>
+        <ul className={active ? 'z-10 w-screen h-3/4 flex-col text-gray-700 text-xl flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden' : 'hidden'}>
           <AiOutlineClose 
             onClick={showMenu}
             className="h-10 w-10 text-white block hamburger md:hidden focus:outline-none"

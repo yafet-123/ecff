@@ -12,8 +12,8 @@ export default function AboutECFF({Aboutdata}) {
     ];
     return (
         <div className="flex flex-col w-full mb-40 px-5 md:px-96">
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-                <div className="flex flex-col w-130">
+            <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+                <div className="flex flex-col w-full lg:w-130">
                     <h1 className="text-ecffBrown font-bold text-4xl md:text-5xl my-4">We are ECFF</h1>
                     <p className="text-textblack text-left md:text-lg my-2 w-full">
                         Environment and Coffee Forest Forum (ECFF) is a local civil society organization registered 
@@ -27,12 +27,12 @@ export default function AboutECFF({Aboutdata}) {
                     </p>
                 </div>
 
-                <div className="relative flex flex-row md:flex-col mt-10 md:mt-0">
-                    <div className="w-96 h-96 project-one-background bg-cover bg-center mx-10">
+                <div className="relative hidden lg:inline flex flex-row mt-10 md:mt-0">
+                    <div className="lg:absolute w-96 h-96 project-one-background bg-cover bg-center">
                     
                     </div>
 
-                    <div className="md:absolute w-96 h-96 md:w-72 md:h-72 project-two-background bg-cover bg-center md:-bottom-1/4 md:-right-1/4">
+                    <div className="lg:absolute w-96 h-72 project-two-background bg-cover bg-center lg:top-2/4 lg:left-1/4">
                     
                     </div>
                 </div>
