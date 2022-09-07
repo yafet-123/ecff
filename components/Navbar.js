@@ -55,7 +55,7 @@ export default function Navbar() {
         
           <GiHamburgerMenu 
             onClick={showMenu}
-            className="h-10 w-10 text-white block md:hidden focus:outline-none mt-5"
+            className="h-10 w-10 text-white block md:hidden focus:outline-none my-3 md:my-5 "
           />
           <ul className={active ? 'z-10 w-screen h-3/4 flex-col text-gray-700 text-xl flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden' : 'hidden'}>
             <AiOutlineClose 
