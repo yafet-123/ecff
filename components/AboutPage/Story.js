@@ -31,7 +31,7 @@ export default function Story() {
                             <div className="hidden md:inline absolute left-1/2 -ml-4 w-10 h-10 rounded-full border mr-24 border-gray-200 bg-red-700 p-5">
                                 
                             </div>
-                            <div className="hidden md:inline absolute left-1/2 ml-6 w-102 h-0.5 bg-gray-600"></div>
+                            <div className="hidden md:inline absolute left-1/2 md:ml-6 w-102 h-0.5 bg-gray-600"></div>
                             <div className="hidden md:inline absolute md:left-[30%] lg:left-[40%] py-5 px-10 bg-slate-200 rounded-full">2001</div>
                             <div className="flex flex-col items-center h-full">
                                 <Image 
